@@ -1,0 +1,28 @@
+{
+  "name": "team-collab-server",
+  "version": "1.0.0",
+  "description": "Team Collaboration Platform Backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "mocha tests"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.13.5",
+    "socket.io": "^4.0.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.0.0"
+  }
+}
