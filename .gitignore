@@ -46,3 +46,12 @@ logs
 context.yaml
 /context.yaml
 *.yaml
+
+# MongoDB data
+/data
+data/
+*.wt
+*.lock
+*.turtle
+*.bson
+mongod.lock
